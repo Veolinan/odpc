@@ -1,15 +1,5 @@
-<a href="https://www.paypal.me/KevinRoebert" target="_blank"><img src="https://raw.githubusercontent.com/KevinRoebert/DonateButtons/master/Paypal.png" alt="Buy Me A Coffee" height="55"></a>
-<a href="https://liberapay.com/kroeb" target="_blank"><img src="https://raw.githubusercontent.com/KevinRoebert/DonateButtons/master/LiberaPay.png" alt="Buy Me A Coffee" height="55"></a>
-<a href="https://www.buymeacoffee.com/KevinRoebert" target="_blank"><img src="https://raw.githubusercontent.com/KevinRoebert/DonateButtons/master/BuyMeACoffee.png" alt="Buy Me A Coffee" height="55"></a>
-
-[<img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="for Firefox" height="60px">](https://addons.mozilla.org/firefox/addon/clearurls/) [<img src="https://docs.clearurls.xyz/1.22.0/assets/img/MEA-button.png" alt="for Edge" height="60px">](https://microsoftedge.microsoft.com/addons/detail/mdkdmaickkfdekbjdoojfalpbkgaddei) [<img src="https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="for Chrome" height="60px">](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk)
-
-# <sub><img src="https://gitlab.com/ClearURLs/ClearUrls/raw/master/img/clearurls.svg" width="64px" height="64px"></sub> ClearURLs [![Gitter](https://badges.gitter.im/ClearURLs/ClearURLs.svg)](https://gitter.im/ClearURLs/ClearURLs)
-
-**ClearURLs** is an add-on based on the new WebExtensions technology and is optimized for *Firefox* and *Chrome* based browsers.
-
 This extension will automatically remove tracking elements from URLs to help protect your privacy when browsing the Internet, 
-which is regularly updated by us and can be found [here](https://gitlab.com/anti-tracking/ClearURLs/rules/-/raw/master/data.min.json).
+which is regularly updated by us and can be found 
 
 ## Application
 Many websites use tracking elements in the URL (e.g. `https://example.com?utm_source=newsletter1&utm_medium=email&utm_campaign=sale`) to mark your online activity. 
@@ -36,72 +26,5 @@ Indeed most of the above URL is tracking code. Once ClearURLs has cleaned the ad
 * Prevents Google from rewriting the search results (to include tracking elements)
 * Prevents Yandex from rewriting the search results (to include tracking elements)
 
-## Permissons
-Reasoning for needed permissions can be found under [here](https://gitlab.com/ClearURLs/ClearUrls/issues/159).
 
-## Screenshot
-![Interface (version 1.14.0)](https://docs.clearurls.xyz/1.22.0/assets/img/interface.png)
 
-## CI/CD Artifacts Download (for Firefox- and Chrome-Dev only)
-Here you can download the packed files for the Firefox- and Chrome-Dev:
-
- - [ClearURLs.zip](https://gitlab.com/ClearURLs/ClearUrls/-/jobs/artifacts/master/raw/ClearURLs.zip?job=bundle%20addon)
-
-## Test
-If you want to test whether ClearURLs works correctly on your system, you can go to this test page: [https://test.clearurls.xyz/](https://test.clearurls.xyz/)
-
-## Contribute
-If you have any suggestions or complaints, please [create an issue.](https://gitlab.com/ClearURLs/ClearUrls/issues/new)
-
-**Note: If you have any suggestions or complaints regarding the rules, please [create an issue in this repo](https://gitlab.com/anti-tracking/ClearURLs/rules/-/issues/new) or email us rules.support (at) clearurls.xyz (this mail will automatically create a new issue in this repo).**
-
-### Translate ClearURLs
-You want to help translating ClearURLs into many languages? – Nice
-
-You can choose between two options to contribute. You can create a merge request, or you can use the POEditor to translate ClearURLs.
-
-*Hint: The description field in the translation files are only an information for what the translation is used. 
-It is not necessary to translate the description field; in the most cases it is empty.*
-
-#### Merge request
-If you want to create a merge request, you must open the path [`_locales/en/messages.json`](https://gitlab.com/ClearURLs/ClearUrls/-/blob/master/_locales/en/messages.json) in the ClearURLs repo 
-and translate the english terms into terms of your language. Once you have translated all the terms, you make a pull request of your translation. 
-Please push your translation into the folder `_locales/{language code}/messages.json`.
-
-#### POEditor
-[<img src="https://poeditor.com/public/images/logo/logo.svg" alt="https://poeditor.com/join/project/vKTpQWWvk2" width="150">](https://poeditor.com/join/project/vKTpQWWvk2)
-
-## Projects that use parts of ClearURLs
-
-* [Uroute](https://github.com/walterl/uroute) used ClearURLs to filter/clean URL before launching browser
-* [Scrub](https://gitlab.com/CrunchBangDev/cbd-cogs/-/tree/master/Scrub) used ClearURLs to filter/clean URLs as cog for the Red Discord bot
-* [Unalix](https://github.com/AmanoTeam/Unalix) small, dependency-free, fast Python package for removing tracking fields from URLs
-* [Unalix-nim](https://github.com/AmanoTeam/Unalix-nim) small, dependency-free, fast Nim package and CLI tool for removing tracking fields from URLs
-* [UnalixAndroid](https://github.com/AmanoTeam/UnalixAndroid) simple Android app that removes link masking/tracking and optionally resolves shortened links
-
-## Recommended by...
-*  [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions)
-*  [Awesome Humane Tech List](https://github.com/humanetech-community/awesome-humane-tech#tracking)
-*  [PrivacyTools](https://www.privacytools.io/browsers/#addons)
-*  [New York Times Wirecutter](https://www.nytimes.com/wirecutter/reviews/our-favorite-ad-blockers-and-browser-extensions-to-protect-privacy/#cleaner-links-clearurls)
-*  ClearURLs is part of Mozilla's recommended extensions program
-
-## Permissions
-Reasoning for needed permissions you can find under [this wiki page](https://docs.clearurls.xyz/latest/permissions/).
-
-## Copyright
-We use some third-party scripts in our add-on. The authors and licenses are listed below.
--   [WebExtension browser API Polyfill](https://github.com/mozilla/webextension-polyfill) |
-    Copyright by Mozilla |
-    [MPL-2.0](https://github.com/mozilla/webextension-polyfill/blob/master/LICENSE)
--   [Bootstrap v4.3.1](https://github.com/twbs/bootstrap/tree/v4.3.1) |
-    Copyright 2011-2016 Twitter, Inc. |
-    [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
--   [jQuery v3.6.0](https://github.com/jquery/jquery/tree/3.6.0) |
-    Copyright JS Foundation and other contributors |
-    [MIT](https://jquery.org/license/)
--   [DataTables v1.10.20](https://github.com/DataTables/DataTables/tree/master) |  Copyright (c) 2008-2015 SpryMedia Limited | [MIT](https://datatables.net/license/)
--   [Pickr v1.7.0](https://github.com/Simonwep/pickr/tree/1.7.0) | Copyright (c) 2018 - 2020 Simon Reinisch |
-    [MIT](https://github.com/Simonwep/pickr/blob/master/LICENSE)
--   [Font Awesome v5.12.0](https://github.com/FortAwesome/Font-Awesome/tree/5.12.0) | Copyright (c) @fontawesome |
-    [Font Awesome Free License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)
